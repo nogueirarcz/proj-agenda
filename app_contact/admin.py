@@ -17,6 +17,4 @@ class ContactAdmin(admin.ModelAdmin):
 
     list_max_show_all = 100
 
-    list_editable = ('first_name', 'last_name',)
-
-    list_display_links = ('id')
+    list_display_links = ('id', 'first_name',)
